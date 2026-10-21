@@ -2,3 +2,6 @@
 __pycache__/
 reports_data/
 comb_reports/
+creds.json
+student_debt_report.txt
+.DS_Store
