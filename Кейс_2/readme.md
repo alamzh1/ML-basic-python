@@ -71,17 +71,6 @@ python solution.py
 
 Другой файл можно передать через `--excel путь/к/файлу.xlsx`.
 
-### Из Google Sheets
-
-Нужны ключ сервисного аккаунта `creds.json` (в курсе его выдают по ссылке `https://gist.github.com/Vs8th/d0bd4bdbbb58c8ae4f70a2a503e2d5fc/raw/creds.json`) и доступ этого аккаунта к таблице.
-
-```bash
-pip install gspread oauth2client
-python solution.py --google "Имя таблицы"
-```
-
-Положите `creds.json` в `Кейс_2/` или укажите путь через `--creds`. Файл добавлен в `.gitignore`, в репозиторий он не попадёт.
-
 ### Проверка
 
 ```bash
